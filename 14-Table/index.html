@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>My Table</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Sıra No.</th>
+                <th>Ürün İsmi</th>
+                <th>Ürün Fiyatı</th>
+                <th>Ürün Görseli</th>
+                <th>Buttonlar</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td>Laptop</td>
+                <td>4000 ₺</td>
+                <td><img src="laptop.jpg" alt="laptop" width="100"></td>
+                <th><button>Click</button></th>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td rowspan="2">Tava</td>
+                <td>1000 ₺</td>
+                <td><img src="tava.jpg" alt="laptop" width="100"></td>
+                <th><button>Click</button></th>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>1000 ₺</td>
+                <td colspan="2"><img src="tava.jpg" alt="laptop" width="100"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
